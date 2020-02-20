@@ -1,14 +1,11 @@
 import React from 'react';
 
-import Block from './block';
+import Blocks from './block/blocks';
 
 function Conteiner () {
   return(
     <div>
-     <Block mrops={10} />
-     <Block mrops='string' />
-     <Block mrops={null} />
-     <Block mrops={[]} />
+     <Blocks />
     </div>
   )
 }
