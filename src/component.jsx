@@ -1,11 +1,14 @@
 import React from 'react';
 
-import Blocks from './block/blocks';
+import Header from './header';
+
+import Content from './content';
 
 function Conteiner () {
   return(
     <div>
-     <Blocks />
+      <Header />
+      <Content />
     </div>
   )
 }
